@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+  <b> Dryland </b>
+  
+  <div>
+  <b>Location</b>
+  <input type="radio" id="balcony" name="loc" value="balcony" />
+  <label for="zcenter">Balcony</label>
+  <input type="radio" id="maccourt" name="loc" value="maccourt" />
+  <label for="zcenter">Mac Court</label>
+  <input type="radio" id="track" name="loc" value="track" />
+  <label for="zcenter">Track</label>
+  <input type="radio" id="rosebowl" name="loc" value="rosebowl" />
+  <label for="rosebowl">Rosebowl</label>
+  <input type="radio" id="caltech" name="loc" value="caltech" />
+  <label for="caltech">Caltech</label>
+  <input type="radio" id="vacation" name="loc" value="vacation" />
+  <label for="vacation">Vacation</label>
+  </div>
+  
+  <div>
+  <b>Day</b>
+  <input type="radio" id="day1" name="day" value="day1" />
+  <label for="day1">Tuesday</label>
+  <input type="radio" id="day2" name="day" value="day2" />
+  <label for="day2">Friday</label>
+  </div>
+
+  <button onclick="generateWorkout()">Generate Workout</button>
+  <p id = "set"></p>
+  <script src="upper_body.json"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+
