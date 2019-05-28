@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-  <b> Dryland </b>
+  <b> Dryland Generator</b>
   
   <div>
   <b>Location</b>
@@ -29,10 +29,21 @@
   <label for="day2">Friday</label>
   </div>
 
+  <div>
+  <b>Number of people</b>
+  <input type="radio" id="1_p" name="people" value="1" />
+  <label for="day1">One</label>
+  <input type="radio" id="2_p" name="people" value="2" />
+  <label for="day2">Two</label>
+  <input type="radio" id="3_p" name="people" value="3" />
+  <label for="day2">Three</label>
+  </div>
+
   <button onclick="generateWorkout()">Generate Workout</button>
   <p id = "set"></p>
-  <script src="upper_body.json"></script>
+  <script src="work_outs.json"></script>
   <script src="main.js"></script>
 </body>
 </html>
+
 
